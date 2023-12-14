@@ -404,19 +404,53 @@ span.navbar-text {
 }
 
 @media (max-width: 600px) {
+  .project{
+    align-items: center;
+  }
+   .projimbxbx{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
   .proj-imgbx {
+
     position: relative;
     border-radius: 30px;
     overflow: hidden;
     margin-bottom: 24px;
-    width: 100px;
-    height: 100px;
+    width: 360px;
+    height: 360px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
+
   }
 }
 
-@media (min-width: 601px) and (max-width: 1024px) {
+@media (max-width: 400px) {
+    .projimbxbx {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+  .proj-imgbx {
+
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+}
+
+@media (min-width: 575px) and (max-width: 1024px) {
   .proj-imgbx {
     position: relative;
     border-radius: 30px;
