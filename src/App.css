@@ -513,6 +513,19 @@ span.navbar-text {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+.proj-txtx button {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 10px;
+  letter-spacing: 0.8px;
+  background-color: #121212;
+  padding: 10px;
+}
+.proj-txtx a {
+  text-decoration: none;
+  color: white;
+}
 .background-image-right {
   top: 20%;
   position: absolute;

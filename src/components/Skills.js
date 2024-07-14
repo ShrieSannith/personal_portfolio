@@ -34,20 +34,16 @@ export const Skills = () => {
                   <h2>Skills</h2> 
                   <Carousel responsive={responsive} infinite={true} className="Skill-slider">
                     <div className="skill-item">
-                      <img src={meter1} alt='images'/>
+                      <img src={meter2} alt='images'/>
                       <h5>App Development</h5>
                     </div>
                     <div className="skill-item">
+                      <img src={meter1} alt='images'/>
+                      <h5>MERN STACK</h5>
+                  </div>
+                  <div className="skill-item">
                       <img src={meter2} alt='images'/>
-                      <h5>Backend Development</h5>
-                    </div>
-                    <div className="skill-item">
-                      <img src={meter1} alt='images'/>
-                      <h5>Frontend Web Development</h5>
-                    </div>
-                    <div className="skill-item">
-                      <img src={meter1} alt='images'/>
-                      <h5>Robotics</h5>
+                      <h5>DSA</h5>
                     </div>
                     <div className="skill-item">
                       <img src={meter1} alt='images'/>
@@ -56,16 +52,17 @@ export const Skills = () => {
                     <div className="skill-item">
                       <img src={meter2} alt='images'/>
                       <h5>UI & UX</h5>
-                    </div>
-                    <div className="skill-item">
-                      <img src={meter1} alt='images'/>
-                      <h5>Data Analysis</h5>
-                      <p>(MySql, R-studio, Matlab)</p>
+                  </div>
+                  <div className="skill-item">
+                      <img src={meter2} alt='images'/>
+                      <h5>Tensorflow</h5>
                     </div>
                     <div className="skill-item">
                       <img src={meter2} alt='images'/>
-                      <h5>DSA</h5>
+                      <h5>Data Analysis</h5>
+                      <p>(MySql, R-studio, Matlab)</p>
                     </div>
+                    
                   </Carousel>
                 </div>
               </Col>

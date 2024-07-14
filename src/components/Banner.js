@@ -58,9 +58,9 @@ export const Banner = () =>{
                 <Row className="align-items-center">
                     <Col xs={12} md = {6} xl={7}>
                         <span className="tagline">Welcome to my portfolio</span>
-                        <h1>{'Hi I am Natalie, I am '}<span className="wrap">{text}</span></h1>       
+                        <h1>{'Hi I am Shrie, I am '}<span className="wrap">{text}</span></h1>       
                         <p> 
-                            I'm Natalie Grant, a dedicated student delving into the world of computer engineering. I thrive on the intricacies of technology, from dissecting hardware to deciphering complex code. I'm passionate about crafting innovative solutions and pushing the boundaries of what's possible in the digital realm. My journey in computer engineering is fueled by a relentless curiosity and a drive to create impactful advancements in technology.
+                            Hey! I'm a final year BTech student at VIT Chennai who works on Full Stack Development projects. I have gained real-world experience through internships where I have contributed to industry projects and developed applications for the company. I'm excited to contribute to the tech industry and explore new growth opportunitie!
                         </p>  
                         {/* <button href = '#footer' onClick= {()=> scrollToBottom}>Let's Connect <ArrowRightCircle size={25}/></button>      */}
                     </Col>
