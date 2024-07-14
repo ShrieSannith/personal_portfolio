@@ -60,7 +60,7 @@ export const Banner = () =>{
                         <span className="tagline">Welcome to my portfolio</span>
                         <h1>{'Hi I am Shrie, I am '}<span className="wrap">{text}</span></h1>       
                         <p> 
-                            I am a Junior year Electronics and Computer engineering student at VIT Chennai. I am an innovative app and web developer with a passion for creating user-friendly interfaces and robust backend solutions. Additionally, I am the teaching Lead of Robotics club, VIT Chennai and I am really passionate about making robotics projects and conducting workshops.
+                            Hey! I'm a final year BTech student at VIT Chennai who works on Full Stack Development projects. I have gained real-world experience through internships where I have contributed to industry projects and developed applications for the company. I'm excited to contribute to the tech industry and explore new growth opportunitie!
                         </p>  
                         {/* <button href = '#footer' onClick= {()=> scrollToBottom}>Let's Connect <ArrowRightCircle size={25}/></button>      */}
                     </Col>
