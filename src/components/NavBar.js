@@ -5,6 +5,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Button } from 'react-bootstrap';
 import git from '../assets/images/git1.png'
+import linkedin from '../assets/images/linkedin.png'
+import toggle from '../assets/images/toggle.png'
 import {Link} from 'react-scroll'
 // import { Router } from 'react-bootstrap-icons';
 import { HashLink } from 'react-router-hash-link';
@@ -41,7 +43,8 @@ export const NavBar = () => {
           <Container>
             <Navbar.Brand href="#home">N Shrie Sannith</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" >
-              <span className="navbar-toggler-icon"></span>
+              {/* <img src={toggle} style={{width:"10%", postion:"absolute", top:"20px", right:"10px"}}></img> */}
+              <span className="navbar-toggler -icon" ></span>
               </Navbar.Toggle>
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
@@ -51,6 +54,7 @@ export const NavBar = () => {
               </Nav>
               <span className="navbar-text">
                 <div className="social-icon">
+                  <a href="https://www.linkedin.com/in/shriesannithn/" target='_blank'><img src = {linkedin} alt = "linkedin"/></a>
                   <a href="https://github.com/ShrieSannith" target='_blank'><img src = {git} alt = "github"/></a>
                 </div>
                 
